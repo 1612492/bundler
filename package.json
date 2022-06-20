@@ -1,0 +1,16 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "esbuild": "node src/esbuild",
+    "webpack": "node src/webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "esbuild": "^0.14.46",
+    "webpack": "^5.73.0"
+  }
+}
